@@ -1,6 +1,6 @@
 import FolderHero from '@/app/_components/FolderHero';
 import ProfileSection from '@/app/_components/ProfileSection';
-// import SkillSection from '@/components/SkillSection';
+import SkillSection from '@/app/_components/SkillSection';
 // import ExperienceSection from '@/components/ExperienceSection';
 
 export default function MainPage() {
@@ -18,8 +18,7 @@ export default function MainPage() {
 
             <ProfileSection />
 
-            {/* 3. Skills 정리 */}
-            {/* <SkillSection /> */}
+            <SkillSection />
 
             {/* 4. 학력 및 경력 정리 */}
             {/* <ExperienceSection /> */}
