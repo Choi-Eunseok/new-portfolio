@@ -2,6 +2,7 @@ import FolderHero from '@/app/_components/FolderHero';
 import ProfileSection from '@/app/_components/ProfileSection';
 import SkillSection from '@/app/_components/SkillSection';
 import ExperienceSection from '@/app/_components/ExperienceSection';
+import ProjectCtaSection from '@/app/_components/ProjectCtaSection';
 
 export default function MainPage() {
     return (
@@ -21,6 +22,8 @@ export default function MainPage() {
             <SkillSection />
 
             <ExperienceSection />
+
+            <ProjectCtaSection />
         </main>
     );
 }
