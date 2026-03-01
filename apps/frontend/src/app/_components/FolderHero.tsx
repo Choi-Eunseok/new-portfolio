@@ -3,11 +3,11 @@
 import SquareFolder from './SquareFolder';
 
 const folders = [
-    { id: 1, title: 'Project 프로젝트 01' },
-    { id: 2, title: 'Project 프로젝트 02' },
-    { id: 3, title: 'Project 프로젝트 03' },
-    { id: 4, title: 'Project 프로젝트 04' },
-    { id: 5, title: 'Project 프로젝트 05' },
+    { id: 1, title: 'JCI 앱' },
+    { id: 2, title: 'BEAK' },
+    { id: 3, title: '제2기숙사 학식 앱' },
+    { id: 4, title: '부산 코로나와' },
+    { id: 5, title: 'Time-LLM-Trace' },
 ];
 
 export default function FolderHero() {
