@@ -69,8 +69,7 @@ export default function FolderHero() {
     const [step, setStep] = useState<number>(0);
 
     const handleOpen = (id: string) => {
-        if (step !== 0)
-        {
+        if (step !== 0) {
             setStep(0);
             return;
         }
