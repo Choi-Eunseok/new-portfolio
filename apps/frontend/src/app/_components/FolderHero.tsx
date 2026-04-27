@@ -104,8 +104,6 @@ export default function FolderHero() {
         }, 1000);
     };
 
-    const selectedProject = PROJECTS.find(p => p.id === selectedId);
-
     useEffect(() => {
         const handleKeyDown = (event: KeyboardEvent) => {
             if (event.key === 'Escape') {
@@ -162,9 +160,9 @@ export default function FolderHero() {
                                                 className="p-8 md:p-12 overflow-y-auto h-full scrollbar-hide flex flex-col"
                                             >
                                                 <h2 className="text-2xl md:text-4xl font-black text-zinc-800 mb-2">
-                                                    {selectedProject.title}
+                                                    {project.title}
                                                 </h2>
-                                                <p className="text-zinc-500 mb-8 font-medium">{selectedProject.date}</p>
+                                                <p className="text-zinc-500 mb-8 font-medium">{project.date}</p>
 
                                                 <div className="flex-1 border-2 border-dashed border-zinc-300 rounded-lg flex items-center justify-center bg-zinc-50/50">
                                                     <p className="text-zinc-400 font-medium">이곳에 상세 트러블슈팅 및 코드 리뷰가 들어갑니다.</p>
