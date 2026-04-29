@@ -66,6 +66,7 @@ jobs:
           set -euo pipefail
 
           BRANCH="main"
+          export PATH="$HOME/.local/bin:$PATH"
 
           if [ -z "$APP_DIR" ]; then
             echo "DEPLOY_APP_DIR secret is required."
