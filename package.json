@@ -9,7 +9,9 @@
     "dev": "turbo dev",
     "build": "turbo build",
     "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "start:frontend": "pnpm --filter @repo/frontend start -- -H 0.0.0.0 -p ${FRONTEND_PORT:-3000}",
+    "start:backend": "pnpm --filter @repo/backend start"
   },
   "devDependencies": {
     "turbo": "^2.0.0",
