@@ -4,7 +4,7 @@ module.exports = {
       name: "portfolio-frontend",
       cwd: "apps/frontend",
       script: "pnpm",
-      args: `start -- -H 0.0.0.0 -p ${process.env.FRONTEND_PORT || "3000"}`,
+      args: `exec next start -H 0.0.0.0 -p ${process.env.FRONTEND_PORT || "3000"}`,
       env: {
         NODE_ENV: "production"
       }

@@ -10,7 +10,7 @@
     "build": "turbo build",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "start:frontend": "pnpm --filter @repo/frontend start -- -H 0.0.0.0 -p ${FRONTEND_PORT:-3000}",
+    "start:frontend": "pnpm --filter @repo/frontend exec next start -H 0.0.0.0 -p ${FRONTEND_PORT:-3000}",
     "start:backend": "pnpm --filter @repo/backend start"
   },
   "devDependencies": {
